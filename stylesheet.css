@@ -1,0 +1,51 @@
+.banner {
+    background: url('NEW-Background.png');
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #login-status {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  #game-window {
+    width: 70%;
+    height: 80vh;
+    margin: auto;
+    border-radius: 2em;
+    border: 3px solid #000000;
+  }
+  
+  #scoreboard {
+    position: absolute;
+    right: 10px;
+    width: 20%;
+  }
+  
+  #chat-box {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 20%;
+  }
+
+body {
+    background: url('NEW-Background.png') repeat-x;
+    animation: scroll 20s linear infinite;
+    background-position: 0 0;
+    background-size: auto 100vh;
+    font-size: 0.7vw;
+    overflow: auto;
+    backdrop-filter: blur(150px);
+    margin-bottom: 0px;
+  }
+  
+  @keyframes scroll {
+    from { background-position: 0 0; }
+    to { background-position: -100% 0; }
+  }
+  
