@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
+
 <body>
   <div class="banner">
     <h1>Game Title</h1>
@@ -10,19 +12,26 @@
 
   <div id="login-status">Not logged in</div>
 
-  <div id="game-window"></div>
+  <div class="row">
+    <div class="chat-container">
+      <div class="chat-box">
+        <div id="messages">messages</div>
+        <form id="message-form">
+          <input type="text" id="message-input">
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+
+    <div id="game-window"></div>
+  </div>
 
   <div id="scoreboard">
     <h2>Scoreboard</h2>
     <!-- scores would be here -->
   </div>
+  
 
-  <div id="chat-box">
-    <div id="messages"></div>
-    <form id="message-form">
-      <input type="text" id="message-input">
-      <button type="submit">Send</button>
-    </form>
-  </div>
 </body>
+
 </html>
