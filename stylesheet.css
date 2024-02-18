@@ -21,6 +21,34 @@
     padding: 8px;
   }
   
+  chat-container {
+    width: 300px;
+    height: 400px;
+    overflow-y: auto;
+  }
+
+  .chat-box {
+    /* display: inline; */
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 0 8vh 0.7vh 0;
+    border: none;
+    font: normal 16px/1 "Times New Roman", Times, serif;
+    color: rgba(255,255,255,1);
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background: rgb(0,0,0);
+    position: absolute;
+  }
+
+  #messages{
+    height: 77.7vh;
+  }
+  #message-form{
+    align-self: flex-end;
+  }
+
   #game-window {
     width: 70%;
     height: 83vh;
