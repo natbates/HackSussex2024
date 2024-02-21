@@ -1,5 +1,5 @@
 .banner {
-    background: url('Screenshot 2024-02-17 143638.png');
+    background-image: url('NEW-Background.png');
     height: 10vh;
     display: flex;
     justify-content: center;
@@ -139,7 +139,7 @@
 
 
 body {
-    background: url('Screenshot 2024-02-17 143638.png') repeat-x;
+    background: url('NEW-Background.png') repeat-x;
     animation: scroll 15s linear infinite;
     background-position: 0 0;
     background-size: auto 100vh;
@@ -170,7 +170,7 @@ body {
 
   .block{
     position: relative;
-    background: url('Screenshot 2024-02-17 143638.png');
+    background: url('NEW-Background.png');
     border-radius: 30px;
   }
   
